@@ -1,0 +1,33 @@
+<meta>
+    Client [
+    -> Utils
+    <script src="utils/c_Utils.lua" type="client"/>
+    -> Manager
+    <script src="manager/c_PostManager.lua" type="client"/> 
+    -> Script
+    <script src="client/c_FuelDGS.lua" type="client"/>
+    <script src="client/c_FuelSystem.lua" type="client"/>
+    <script src="client/c_FuelDX.lua" type="client"/>
+    -> Icons
+	<file src="icons/petrol.png"/>
+	<file src="icons/fueltype.png"/>
+	<file src="icons/payment.png"/>
+	<file src="icons/wait.png"/>
+    ]
+
+    Server [
+    -> Utils
+    <script src="utils/s_Utils.lua" type="server"/>
+    <script src="utils/s_SqlLite.lua" type="server"/>
+    -> Manager
+    <script src="manager/s_PostManager.lua" type="server"/>
+    -> Config
+    <script src="server/s_Config.lua" type="server"/> 
+    -> Script
+    <script src="server/s_Fuel.lua" type="server"/>
+    <script src="server/s_FuelSystem.lua" type="server"/>
+    -> Events
+    <script src="manager/s_Events.lua" type="server"/>
+    ]
+
+</meta>

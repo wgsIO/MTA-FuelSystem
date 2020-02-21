@@ -1,0 +1,5 @@
+Npcs = {
+
+}
+
+function createNPC()
